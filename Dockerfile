@@ -10,7 +10,7 @@ ARG ubuntu_version=20.04
 
 FROM ubuntu:${ubuntu_version}
 
-ARG runner_version=2.277.1
+ARG runner_version=2.279.0
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV ImageOS=ubuntu20
